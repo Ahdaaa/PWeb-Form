@@ -1,0 +1,118 @@
+@font-face {
+    font-family: Atyp;
+    src: url(./src/AtypText-Semibold.ttf);
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Atyp;
+    z-index: 1;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+.flex-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.flex-column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    height: fit-content;
+    background-color: white;
+}
+
+.main-div{
+    width: fit-content;
+    height: fit-content;
+    background-color: ghostwhite;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.icon{
+    width: 35px;
+    height: 35px;
+    background-image: url(./src/spotify.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.font-black{
+    color: black;
+}
+
+.font-or{
+    font-family: sans-serif;
+    font-weight: 1px;
+
+    
+}
+
+.smaller{
+    font-size: 20px;
+}
+
+.small{
+    font-size: 28px;
+}
+
+.btn{
+    width: 350px;
+    border-radius: 500px;
+    border-width: 2px;
+    padding: 12px 50px;
+    border-color: transparent;
+    background-color: #405A93;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+
+.b2{
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-width: 2px;
+}
+
+.b3{
+    background-color: #1ED760;
+    color: black;
+    margin-bottom: 20px;
+}
+.btn:hover{
+    scale: 1.05;
+}
+
+form div{
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, select{
+    padding: 15px 15px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: gray;
+}
